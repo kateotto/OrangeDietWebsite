@@ -1,0 +1,103 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+    <head>
+        <meta charset="utf=8">
+        <title>DIET</title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">     
+    </head>
+    <body>
+            <nav>
+                <div id="aboutModal">
+                    <div class="aboutModalContent">
+                        <span class="aboutModalClose">&times;</span>
+                        <br/>
+                        <p>Lorem ipsum dolor sit amet, has viris aliquip oporteat ex, 
+                            facer sensibus definiebas nec ex. Option repudiare vim cu, ut detraxit persecuti cum. 
+                            Mel ne reprimique liberavisse, ad cum mutat doming iriure. Ad quod autem diceret mea, verear facilis eum ea, 
+                            ne suas molestie pri. Melius labores at vis.
+                        </p>
+                     </div>
+                </div>
+            <div id="logo-container">
+                <div id="orange"></div>
+                <div id="leaf1"></div>
+                <div id="leaf2"></div>
+            </div>               
+                <div id="switchMenu" class="menu">
+                    <div id="menu">
+                        <a> </a>
+                        <a id="aboutModalBtn">O MNIE</a>
+                        <a class="scrollPlan">PLANY <br/>DIETETYCZNE</a>
+                        <a>CENNIK</a>
+                        <a class="scrollContact" >KONTAKT</a>
+                        <a class="icon" onclick="myFunction()">
+                        <i id="hamburger" class="fa fa-bars"></i>
+                        
+                    </div>
+                </div>
+
+                
+            
+            </nav>
+            <div id="banner">
+          <a id="bannerTitle">Dieta to nie kara!</a>
+            <br/>
+            <div id="description">
+              <a id="bannerText">Plan dostosowany do Twoich potrzeb</a>
+                    <br/>
+              <a id="bannerText">Zero monotoni w posiłkach</a>
+                    <br/>
+              <a id="bannerText">Brak efektu JOJO</a>
+                    <br/>
+                <a id="bannerText">Stała opieka mentora</a>
+          </div>  
+              
+            </div>
+            <div id="dietPlan" class="dietPlan">
+                <h1 id="dietTitle">PLANY DIETETYCZNE:</h1>
+            </div>
+    <div id="plan">
+           <div class="plan one">dieta vegan</div>
+           <div class="plan two">dieta vege</div>
+           <div class="plan three">dieta <br/>proteinowa</div>
+           <div class="plan four">dieta fit</div>
+           <div class="plan five">dieta <br/> indywidualna</div>
+       </div>
+       <div id="contact">
+           <p class="contact-title">Skontaktuj się ze mną!</p>
+        </div>
+        <div id="emailPlace">
+            <p class="contactEmail">Napisz: <span id="email"><i>kontakt@orangediet.pl</i></span>
+            <br/>
+            <span>lub 
+            <br/>
+            wypełnij formularz:</span>    
+            </p>
+           
+        </div>
+        <div id="contact-container">
+        <div id="contact-table">
+            <label for="">DANE: </label><br/>
+            <input type="text" name="firstName" placeholder="Imię:" class="contact-firstName">  
+            <input type="text" name="lastName" placeholder="Nazwisko:" class="contact-lastName"> 
+            <br/><br/>
+            <input type="email" name="email" placeholder="Twój email:">
+            <input type="number" name="age" placeholder="Wiek:" min="16" step="1.0">  
+            <br/><br/>
+            <textarea placeholder="Zostaw mi wiadomość!"></textarea>
+            <br/><br/>
+            <input type="submit">
+          
+        </div>
+        </div>
+       
+           
+      
+        <script src="script.js"></script>
+        <script src="jquery.js"></script>
+       
+    </body>
+</html>
